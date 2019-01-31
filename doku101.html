@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lerdonkumentation</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" href="bilder/wibilea_logo_rgb.jpg">
+
+</head>
+
+<body>
+
+  <header>
+        <!--navigation-->
+        <nav class="navbar navbar-expand-md ">
+            <!--Logo-->
+            <a class="navbar-brand" href="#">
+                <img src="bilder/wibilea_logo_rgb.jpg" alt="logo" style="width:60px;">
+            </a>
+            <!--zusammenfassen der Navigation-->
+            <a class="navbar-brand" href="index.html">Lerndokumentationen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navigations Link-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <!-- Dropdown ük101-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"> ük-101</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Internet</a>
+                            <a class="dropdown-item" href="#">Entwicklungsumgebung</a>
+                            <a class="dropdown-item" href="#">HTML</a>
+                            <a class="dropdown-item" href="#">CSS</a>
+                            <a class="dropdown-item" href="#">Praxis</a>
+                            <a class="dropdown-item" href="#">Glossar</a>
+                        </div>
+                    </li>
+                    <!--ük403-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="doku_403.html">ük-403</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+
+        <main>
+            <h1 id="uk101">ÜK101 Werbwauftritt gestallten und realisieren</h1>
+
+            <h1 id="internet">Internet</h1>
+            <p>
+                •Das Internet ist ein globales System aus miteinander verbundenen Computernetzwerken. Sobald zwei
+                elektronische Geräte (z.B. Computer) verbunden sind und miteinander kommunizieren können, werden sie
+                Teil
+                eines Netzwerks. <br>
+                • Eine IP-Adresse (Internet Protocol Adresse) ist eine aus Zahlen bestehende Adresse, die jedem mit dem
+                Internet verbundenen Gerät zugewiesen wird. <br>
+                • Hypertext Transfer Protocol (http) ist die Formatierungssprache. Die regeln für diese Sprache wurde
+                von
+                W3C (World Wide Web Consortium) erstellt. Das neuste Protokoll ist HTM5, welches kontinuierlich
+                weiterentwickelt. <br>
+                • Der DNS ist der Domain Namen. Wenn man den Domain Namen in Internet eingibt fragt es unsichtbar und
+                automatisch die IP Adresse des Servers ab. <br>
+                • Peer-to-Peer-Netzwerke bestehen aus Computern (Webserver oder Heim-PCs), die zugleich an einer
+                bestimmten
+                Form der Kommunikation teilnehmen. Das bedeutet Jeder Computer kann mit anderen Computer kommunizieren.
+                Um noch mehr über das Internet zu erfahren klicken sie eins der Links an: <br>
+            </p>
+
+            <a href="https://www.blnet.ch/wp-content/uploads/2016/10/101-01-Wie_funktioniert_das_Internet.pdf" target="_blank">Wie
+                das
+                Internet Funktioniert</a>
+            <a href="https://www.youtube.com/watch?v=8PNRrOGJqUI" target="_blank">Die sendung mit der Maus: Wie das
+                Internet Funktioniert</a>
+            <a href="https://www.youtube.com/watch?v=UY_sTRzy8xc" target="_blank">3sat Doku über das Internet</a>
+            <h1 id="entwicklungsumgebung">Entwicklungsumgebung</h1>
+            <p> Es gibt verschiedenen Arten von Entwicklungsumgebungen. Ein einfaches Programm zur Entwicklung einer
+                Webseite
+                ist Visio Studio Code. Den Aufbau sehen sie im Bild unten.</p>
+            <img id="vsc" src="bilder/vsc.JPG" alt="VS Code">
+
+            <h1 id="html">HTML</h1>
+            <p>
+                HTML (Hypertext Markup Language) ,ist eine textbasierte Auszeichnungssprache. Hierbei handelt es sich
+                um
+                das Format, in dem
+                Webseiten geschrieben werden. In einem HTML-Dokumente schreibt der Ersteller den Text und Formatiert
+                ihn
+                anschliessend.
+                Man kann aber auch Bilder, Videos oder Links einfügen und den ganzen Inhalt übersichtlich formatieren.
+                Ein
+                HTML
+                Dokument besteht aus einem &lt;head&gt;, einem &lt;body&gt; und einem &lt;titel&gt; und das steht im
+                Element
+                &lt;!DOCTYPE html&gt; &lt;html lang="de"&gt; und &lt;html&gt;. Im head stehen alle Informationen der
+                Seite
+                zum
+                Beispiel
+                der link zum CSS. Der Titel der in der Titelleiste der Webseite erscheint, wird auch im head definiert.
+                Im
+                body
+                sind die Texte, die Bilder und Filme. Der Inhalt des Bodys wir auf der Webseite eischeinen.
+            </p>
+            <img src="bilder/html.JPG" alt="HTML:5">
+            <h2 id="elemente">Elemente</h2>
+            <p>
+                Ein HTML-Element besteht aus einem Start-Tag, einem Elementinhalt und einem End-Tag. <br>
+                Öffnendes-Tag:
+                <br> Der
+                Starttag besteht aus einem &lt;(öffnenden Spitze Klammer) html (Zeichen) &gt;(schliessenden spitzen
+                Klammer).
+                Um den <br> Schliessendes-Tag: <br> Der End-Tag ist ähnlich aufgebaut wie der Start tag aber mit einem
+                Schrägstich
+                vor dem Zeichen. Zum Beispiel &lt;(öffnenden Spitze Klammer) / html (Zeichen) &gt;(schliessenden
+                spitzen
+                Klammer)
+                <br> Attribute: <br> Grundsätzlich geben sie zusätzliche Informationen über den Inhalt eines Elementes
+                an.
+                Sie
+                bestehen aus dem Attribut-Namen und Attribut-Wert. Zwischen den Namen und den Wert befindet sich ein
+                Gleichstrich.
+                Der Attribut-Name beschreibt welch Art von Zusatzinformation angegeben wird, zum Beispiel eine «class».
+                Der
+                Attribut-Wert
+                ist die Information oder Einstellung des Attributs. Sie sollte in doppelten Anführungszeichen stehen.
+                <br>
+                Diese zwei Bilder zeigen wie ein Elemente aufgebaut sei können:</p>
+
+            <img src="bilder/Tags.JPG" alt="Attribut">
+            <img src="bilder/Attribut.JPG" alt="Attribut">
+
+            <h2 id="text">Text</h2>
+            <p>
+                HTML hat fünf Ebenen für Überschriften, die von &lt;h1&gt; bis &lt;h6&gt;reichen. Um einen Absatz zu
+                erstellen, verwendet
+                man den &lt;p&gt;-Tag. Standartgemäss macht es nach dem &lt;p&gt;-Tag einen Abstand für den
+                nachfolgenden
+                Abschnitt.
+                Um wichtige Wörter oder Abschnitte fett hervorzuheben, kann &lt;b&gt; genutzt werden. Und mit den Tag
+                &lt;i&gt;,erscheinen
+                sie kursiv. Das Element &lt;sup&gt; umschliesst die hochgestellt Zeichen und mit &lt;sub&gt; werden
+                diese
+                tiefgestellt.
+                Um im Text einen Zeilenumbruch einzufügen, kann man an der gewünschten Stelle &lt;br/&gt; eingesetzten.
+                Wenn
+                man verschiedene Themen deutlich trennen möchte, kann man mit &lt;hr/&gt; eine Horizontale Linie
+                machen.
+                Ist
+                der Inhalt von besonderer Wichtigkeit, kommen die Elemente &lt;strong&gt;, der Text wird fett
+                dargestellt,
+                und
+                &lt;em&gt;, der Text wird kursiv dargestellt, zur Verwendung. Zitate kann man in zwei Versionen
+                darstellen.
+                Entweder
+                durch die Verwendung einer &lt;blockquote&gt;, falls es sich um ein sehr langes Zitat über mehrere
+                Absätze
+                sich
+                handelt. Bei kürzeren Zitaten benutzt man &lt;q&gt;(wird von der Verwendung abgeraten). Für Abkürzungen
+                und
+                Akronyme kann das Element &lt;abbr&gt; verwendet werden. Das Attribut «title» wird im öffnenden Tag
+                eingesetzt. <br>
+                <br>
+                Zum Beispiel: &lt;p&gt; &lt; abbr title= «Professor»&gt; Prof. &lt;/abbr &gt; Dumbledore ist ein Magier
+                &lt;/p&gt;<br>
+                So sieht es aus: <abbr title=«Professor»> Prof. </abbr> Dumbledore ist ein Magier.</p>
+            <p>
+                Wenn man Quellenangaben machen, wird mit dem Element &lt;cite&gt; der Textteil kursiv gemacht. Das
+                gleiche
+                Prinzip gilt auch
+                für &lt;dfn&gt;, welches Definitionen kursiv gestaltet. Im Element &lt;address&gt; werden die
+                Kontaktdaten
+                des
+                Autors der Seite festgehalten. Inhalte, die in ein Dokument eingefügt wurden, können mit &lt;ins&gt;
+                <ins>unterstrichen</ins>
+                und mit &lt;del&gt;kann der Text der gelöschte wird <del>durchgestrichen</del> angezeigt werden. Die
+                gleiche
+                Funktion hat das Element &lt;s&gt;, welches allerdings für Preise (<s>100.-</s>) verwendet wird.
+            </p>
+
+            <h2 id="besonderesmarkeup">Besonderes Marekup</h2>
+            <p>
+                Markup ist der englische Begriff für die Textauszeichnung und dient dazu den Inhalt eines Dokuments
+                durch
+                Formatierungen
+                und Hierarchien zu strukturieren. Um diese Auszeichnung umzusetzen, werden Markup-Elemente, sogenannte
+                Tags,
+                eingesetzt. HTML ist wohl die bekannteste Auszeichnungssprache. Zum besonderen Makeup gehört zum
+                Beispiel
+                &lt;
+                ! DOCTYPE html&gt; als Dokumenttypdeklaration. Mit &lt;----&gt; kann man Kommentare im HTML schreiben,
+                der
+                für
+                die Benutzer nicht sichtbar ist, aber sehr praktisch für die Autoren, denn sie können beschreiben was
+                sie
+                mit
+                dem Code dargestellt haben. <br>
+                Das Attribut &lt;id&gt;: <br>
+                Jedes HTML Attribut kann das Element &lt;id&gt;
+                aufweisen
+                und kann so von allen anderen Elementen unterschieden werden. Der Wert dieses Attribut muss mit einem
+                Buchstaben
+                oder unterstrich anfangen. Zwei Elemente auf derselben Seite darf nicht die gleiche &lt;id&gt;
+                aufweisen,
+                sonst
+                wäre der Wert nicht eindeutig. Durch die eindeutige Bezeichnung eins Elements ist es möglich, dieses
+                Element
+                anders zu gestalten als alle anderen Vorkommen des gleichen Elements auf der gleichen Seite. <br>
+                Das Attribut &lt;class&gt;: <br>
+                Alle HTML Elemente können auch das Attribut &lt;class&gt; aufweisen. Wenn man mehrere Elemente auf
+                einer
+                Seite
+                bezeichnen will und sie die gleichen Eigenschaften besitzen sollen und man nicht einzelne Element in
+                einem
+                Dokument
+                eindeutig bezeichnen will, kann man mit der &lt;class&gt; alle gewünschten Elemente bezeichnen. Dafür
+                schreibt
+                man bei den gewünschten Start-Tags die &lt;class= "und den gleichen Wert"&gt;. Einige Elemente beginnen
+                bei
+                der Anzeige in
+                Browserfenster
+                immer auf einer neuen Zeile, die nennt man Blockelemente. <br>
+                Zum Beispiel &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;und &lt;li&gt; <br>
+                Es gibt auch inline-elemente die in derselben Zeilen bleiben. <br>
+                Zum Beispiel: &lt;a&gt;, &lt;b&gt;,&lt;em&gt; und &lt;img&gt; <br>
+                Texte und Elemente in Blöcken gruppieren: <br>
+                Mit dem Element &lt;div&gt; werden Elemente in
+                einem
+                Block gruppiert. In einem Browser fangen &lt;div&gt; Elemente in einer neuen Zeile an. Wenn man aber
+                ein
+                &lt;id&gt;
+                oder &lt;class&gt; hinzufügt, kann man in CSS Regeln erstellen mit der man festlegen kann, wie
+                viel
+                Platz dieses &lt;div&gt; auf dem Bildschirm einnehmen und wie die darin enthaltenen Elemente gestaltet
+                werden
+                sollen. Texte und Elemente inline gruppieren: <br>
+                Das Element &lt;span &gt; ist die inline Version von
+                &lt;div &gt;.
+                Man kann es in zwei verschiedenen Arten einsetzen. Einerseits wenn es kein anders geeignetes Element
+                gibt,
+                um
+                ihn von dem umgebenden Text abzusetzen, andererseits wenn es eine Reihe von Inline-Elementen sind.
+            </p>
+            <h2 id="listen">Listen</h2>
+            <p>
+                Geordnete Listen: <br>
+                Geordnete listen werden mit dem Element &lt;ol&gt; erstellt. Jeder Eintrag in der Liste
+                wird zwischen den
+                &lt;li&gt; Tag gestellt. &lt;li&gt; steht für Listeneintrag. Die Liste wird automatisch von dem Browser
+                eingerückt
+                und wird Nummeriert. <br> Untergeordnete Liste: <br> Mit dem Element &lt;ul&gt; erstellt man eine
+                Untergeordnete
+                Liste.
+                Auch hier sind die Einträge in &lt;li&gt; Elementen. Der Browser zeigt aber die Aufzählung als Punkte
+                an.
+                Man
+                kann in einer Untergeordneten Liste noch einen untergeordnete liste machen, das nennt man
+                Verschachtelte
+                liste.
+                Bei Untergeordnete Liste und Geordnete Listen wird empfohlen das CSS zur Formatierung zu benutzen. <br>
+                Definitionslisten: <br>
+                Sie werden mit dem Element &lt;dl&gt; erstellt und bestehen aus einer Abfolge von Begriffen, die mit
+                &lt;dt&gt;
+                angegeben werden, und deren zugehörigen Definitionen in einem &lt;dd&gt; -Tag.
+            </p>
+            <a href="https://www.w3schools.com/html/html_lists.asp">Listen erstellen</a>
+            <h2 id="formulare">Formulare</h2>
+            <p>Mit Formularen kann der Benutzer die verschiedensten Dinge machen, zum Beispiel etwas suchen, Text
+                eingeben
+                oder eine Auswhl trefefn. Weil deise Theme so umfangreich ist, habe ich einen Link gefunden.</p>
+            <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Formulare erstellen</a>
+            <h2 id="video">Video, Audio, Flash</h2>
+            <p> Flash: <br> Flash wurde verwendet um Animationen zu erstellen und es im Web anzuzeigen. Mit der Zeit
+                konnte
+                man
+                auch
+                Videos mit Flash laufen lassen. Dafür benötigt man ein Plug-in, namens Flash Player. Im Jahr 2005 hatte
+                aber
+                JavaScript
+                seinen eigenes Animation Programm entwickelt. Wodurch die nutzend des Flashs immer weniger wurde.
+                Nachdem
+                Apple
+                iPhone und kurz danach iPad rausbrachte, und sie sich weigerten Flash zu verwenden, wegen Sicherheit
+                gründen,
+                stoppte Adobe die Flash Produktion. Heut benutzt man fast keine Flash Videos. <br>
+                Video: <br>
+                Um ein Video auf die
+                Webseite
+                zu laden, benötigt man das leere Element &lt;video&gt; mit dem Attribut "src" zeigt man den Pfad
+                an
+                und "poste" um ein Bild anzuzeigen, bevor das Video geladen wurde. br
+                Audio: <br>
+                Das Element &lt;audio&gt;, benutzt
+                man
+                um Audio Dateien einzufügen. Auch hier gibt es den Attribut "src" um den Pfad anzugeben. Mit den
+                Attribut
+                "controls"
+                zeigt Steuer Elemente an, mit "autoplay" spielt es automatisch ab, mit "loop" fängt es immer von neuem
+                an
+                sobald
+                es fertig ist und mit "preload" sagt er was er tun soll wenn "autoplay" nicht aktiviert ist. Hier ein
+                Link
+                zur veranschulichung:</p>
+
+            <a href="https://www.w3schools.com/html/html5_video.asp">Videeo und Audio</a>
+
+            <h2 id="bilder">Bilder</h2>
+            <p> Um ein Bild einzufügen muss man zuerst richtig speichern. Am besten ist es, wenn man einen Eigenen
+                Ordner
+                für
+                die Bilder hat. Bei der Auswahl der Bilder sollte man einige Dinge beachten zum Beispiel die Bilder
+                sollten
+                relevant
+                sein, Informationen bieten, Die richtige Stimmung vermitteln, unmittelbar erkennbar sein und zur
+                Farbpalette
+                passen. Wen man keine eigenen Bilder einfügen möchte kann man gegen Gebühr, Bilder aus Foto Agenturen
+                anfordern.
+                Noch ein wichtiger Aspekt ist es die Bilder Richtig abzuspeichern. Die empfehlenden Formate sind JPG,
+                PNG
+                oder
+                GIF. Beim Abspeichern ist es auch nützlich, wenn man die in der Grösse speichert indem man sie auch
+                benutzt.
+                Die Auflösung de Bilder sollte 72 Pixel pro Zoll sein da die meisten Bildschirme diese Auflösung haben.
+                Ein
+                Bild
+                fügt man ein indem man das leere Element &lt;img&gt; benutzt. Der Attribut "src" um den Pfad anzugeben
+                und
+                "alt" um
+                die
+                Bildbeschreibung anzuzeigen falls ein Computer das Bild nicht laden kann. Wenn man das Element
+                &lt;figure&gt;
+                benutzt und darin alle Bilder einfügt kann man mit &lt;figurecaption&gt; das Bild mit einem Untertitel
+                versehen.</p>
+
+            <h2 id="link">Link</h2>
+            <p> Mit dem Element &lt;a&gt; erstellt man Link. Alles was sich zwischen den öffnenden- und
+                Schliessenden-Tag
+                sich
+                befindet, kann der Benutzer anklicken. Der Link bestht aus dem Element &lt;a&gt; und dem Attribut
+                "href".
+                <br>
+                Email
+                Link: <br> Wenn man einen E-Mail-Adresse angeben möchte schreibt man als Wert des «href mailto:email
+                Adressen».
+                Link
+                in neuen Fenster öffnen: <br> Indem man &lt;target&gt; als Attribut nach &lt;href&gt; angibt und als
+                Wert
+                _blank
+                eingibt,
+                öffnet man die Seite auf einem neuem Tab.</p>
+            <img src="bilder/link_v2.JPG" alt="aufbau Link">
+
+            <h2 id="pfade">Pfade</h2>
+            <p> Jede Webseite hat eine URL (Uniform Resource Locator), das ist die Webadresse einer Webseite. Absoluter
+                Pfad:
+                Der Absolute Pfad beginnt mit dem Domänenamen der Webseite darauf kann ein Pfad zur einer einzelnen
+                Seite
+                folgen.
+                Relative Pfad: Wenn man einen Link auf die gleiche Seite macht, hat man einen Relativen Pfad erstellt.
+                Sie
+                werden
+                benötigt um Navigatoren oder Bilder in der Webseite einzufügen.</p>
+
+            <h2 id="tabellen">Tabellen</h2>
+            <p>Tabellen sind dafür da Information in einem Raster darzustellen. Tabellen werden mit dem Element
+                &lt;table&gt;
+                erstellt. Den Beginn einer Zeile markiert man mit &lt;tr&gt;, die einzelnen Zeilen einer Tabelle werden
+                durch
+                &lt;td&gt; Elemente erstellt. Mit dem Element &lt;th&gt; kann man die Überschriften erstellen. Wenn man
+                Spalten
+                zusammenfassen möchte kann man schreibt man &lt;td colspan= "Anzahl Spalten"&gt;. Wenn man Zeilen
+                zusammenfassen
+                möchte schreibt man rowspan= "Anzahl Zeilen". Man kann Tabellen in drei Teile teilen um mehr Übersicht
+                zu
+                haben.
+                Das funktioniert mir &lt;thead&gt; (Tabellen Kopf), &lt;tbody&gt; (Tabellen Rumpf) und &lt;tfoot&gt;
+                (Fussbereich).
+                Diese Elemente steht man bevor man die Tabelle erstellt.
+            </p>
+            <a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">Selber ausprobieren</a>
+            <hr>
+            <H1 id="css">CSS</H1>
+            <p>CSS wendet formatierungsregeln auf HTML-Elementen an. Anders formuliert es ist verantwortlich für alles
+                gestaltungstechnische
+                auf einer Webseite. Eine CSS – Regel besteht aus einem Selektor und einer Deklaration.<br>
+            </p>
+            <h2 id="csseinbinden">CSS einbinden</h2>
+            <p>
+                Um die CSS Regeln auf dem HTML wirken zu lassen muss man die beiden Dokumente verlinken. Das macht man
+                indem man im head
+                schreibt <br> "link herf="css/stylesheet.css" type="text/cssF" rel="stylesheet"". <br>
+                <br> "Herf" gibt den Pfad zur CSS Datei an. "Type" gibt die Art der Verknüpfung. Der Wert muss
+                text/css"
+                lauten.
+                "Rel"
+                gibt die Bezeichnung der HTML-Seite und der verknüpften Datei an. Hierbei muss der wert stylesheet
+                sein.
+                Das
+                ist die einfachste Weise um in einer CSS Datei Regeln aufzustellen. Man kann aber auch im head das
+                Element
+                style"
+                schreiben und die CSS Regeln in html Dokument integrieren, ist aber nicht zu empfehlen <br>
+            </p>
+            <h2 id="cssregel">CSS Regel</h2>
+
+            <h3>Der Selektor:</h3>
+            <p>
+                Selektoren geben an auf welche der HTML-Elemente die Regel angewendet werden soll. eine Regel kann auch
+                auf
+                mehrere Elemente
+                wirken und man kann auch in einem Selektor mehrere Regeln definieren. Die Regeln werden mit dem
+                Semikolon
+                getrennt.
+                <br>
+            </p>
+            <h3>Die Deklaration:</h3>
+            <p>
+                Sie besagt wie das im Selektor beschrieben Element formatiert werden soll. Die Deklaration selber wird
+                in
+                "Eigenschaften"
+                und "Wert" unterschieden. <br>
+            </p>
+            <h3>Eigenschaften: </h3>
+            <p>
+                Die Eigenschaften bezeichnen den Aspekt des Elements den sie bezeichne wollen. Zum Beispiel Schrift,
+                Farbe,
+                Typografie, Breite
+                usw. <br>
+            </p>
+            <h3>Wert: </h3>
+            <p>
+                Sie nennt die gewünschte Einstellung der Eigenschaften. Zum Beispiel will man die Eigenschaft "Color"
+                kann
+                man mit dem Wert
+                "Blue" die Farbe bestimmen.
+            </p>
+
+            <img src="bilder/Selektorunddeklaration.JPG" alt="Selektor und Deklaration">
+            <img src="bilder/eigenschftwert.JPG" alt="Eigenschaft und Wert">
+
+            <h2 id="selektor">Selektor</h2>
+            <p>
+                Es gibt ganz verschiedene Arten von Regeln die auf ganz bestimmte HTML Elemente wirken sollen. Um diese
+                anzusprechen gibt
+                es die Selektoren. In der nachfolgenden Tabelle sehen sie die Selektoren, ihre Bedeutung und Beispiele.
+                Bei
+                CSS-Selektoren
+                wird Gross-Kleinschreibung unterschieden, das bedeutet das Attribute und Werte genau übereinstimmen
+                sollen.
+                Wenn
+                es zwei gleiche Regeln gibt, hat das letzte der beiden Regel die Priorität. Wenn einer der Selektoren
+                spezifischer
+                ist als der andere, so hat dieser die Priorität. Eigenschaftswerte kann man mit "!important" angeben,
+                damit
+                dieser
+                Wert als wichtiger eingestuft wird als alle anderen.
+            </p>
+            <img src="bilder/selektor.JPG" alt="Selektor liste">
+            <h2 id="csstext">Text</h2>
+            <p>
+                Bei der Auswahl der Schriftart muss man beachten das, die gewünschte Schriftart auf dem Computer des
+                Benutzers auch installiert
+                ist, ansonsten kann der Browser nicht die Schriftart nicht darstellen. <br>
+            </p>
+
+            <p>
+                Schriftart: <br>
+                Mit font-family kann man die Schriftart bestimmen. Der Wert ist der Name der gewünschten Schriftart.
+                Am besten ist
+                es, wenn man zwei verschiedenen Schriften aus der gleichen Familie wählt. Dies kann nützlich sein,
+                falls
+                ein
+                Benutzer nicht die erste Schrift nicht besitzt, wird automatisch auf die zweite Schrift geändert. Zum
+                Schluss
+                steht noch der Name der Schriftart. Die Schriftart wird in Serifenschrift (serif), Serifenlosenschrift
+                (sans-serifs),
+                Nichtproportionaleschrift (mionospace) Schreibschrift (cursive) und Schmuckschrift (fantasy). <br>
+                Schrift grösse: <br>
+                Die Eigenschaft font-size benutzt man um die Schrift grüsse anzugeben. Die Schrift
+                wird
+                gewöhnlich in Pixel angegeben. Die Standardgrösse der Schriften ist 16px, denn die meisten Menschen
+                diese
+                Schrittgrösse
+                angenehmer zu lesen. Bei der Angabe der Schriftgösse in Pixel ist die beste Möglichkeit um die Schrift
+                auf
+                jeder
+                Computer die vorgesehene Schriftart hat. <br>
+                Fett: <br> font-weight ist die Eigenschaft indem man den Text fetten kann. Der Wert dazu ist «bold»,
+                wenn
+                man einen fette Schrift dünn darstellen will nimmt man den Wert «normal». <br>
+                Kursiv: <br> font-style benutz man wenn man die Schrift kursiv darstellen möchte. Die Werte «italic»
+                (kursiv)
+                und «oblique» (schräg Schrift) machen die Schrift schräg. Wenn man eine Schrägschrift normal darstellen
+                möchte,
+                dann benutzt man «normal». <br>
+                Umschalten Gross-Kleinschreibung: <br> text-transform sorgt dafür das man zwischen Gross- und
+                Kleinbuchstaben
+                umschalten kann. Der Wert «upercase» macht den Text in Grossbuchstaben, «lowcase» macht sie in
+                Kleinbuchstaben
+                und «capitalize» schreibt den Anfangsbuchstaben jedes Worts gross. <br>
+                Textausschmückungen: <br> text-decoration wird mit den werten none, underline, overline, line-through
+                und
+                blink angewendet. «none» entfernt alle Ausschmückungen bei einem Text, zum Beispiel wenn man einen Link
+                angibt
+                wird es immer unterstrichen angezeigt, um das zu entfernen schreibt man none. Aber manchmal will man
+                absichtlich
+                unterstrichenen Textteile, dafür schreibt man «underline». Man kann auch eine Linie über den Text
+                ziehen,
+                indem
+                man «overline» schreibt. Dann gibt es noch durchgestrichene Texte, dafür gibt es den Wert
+                «line-through».
+                Wenn
+                man es ganz auffällig machen möchte, kann man sogar mit «blink» den Text so animieren das er blinken.
+                <br>
+                Zeilenabstand: <br> Der Teil eines Buchstabens, der unter die Grundlinie hinausgeht, wird als
+                «Unterlänge»
+                bezeichnet, während der höchste Punkt als «Oberlänge» genannt wird. Der Zeilenabstand wird vom unteren
+                Rand
+                der
+                Unterlänge einer Zeile um Oberlänge der folgenden Zeile gemessen. Die Eigenschaft «line-height» hilft
+                einem
+                den
+                Zeilenabstand zu bestimmen, als wert kann man Pixel, em und so weiterverwenden. <br>
+                Buchstaben- und Wortabstände: <br> Laufweite ist der Fachbegriff für Abstände zwischen den Buchstaben.
+                Um
+                zu bestimmen welchen abstand sie haben möchten, kann man den Wert «letter-space» benutzen. Dies wird
+                dann
+                benutzt,
+                wenn man einen Text oder Überschriften mit Grossbuchstaben schreibt, bei texten mit
+                Gross-Kleinbuchstaben
+                ist
+                es nicht zu empfehlen, denn sie kann die Lesbarkeit beeinträchtigen. Der Wortabstand ist meistens
+                0.25em,
+                es
+                ist unwahrscheinlich, dass man diese Einstellung benutzt, aber man ein grösserer Wortabstand verbessert
+                die
+                Lesbarkeit.
+                Deswegen gibt es die Eigenschaft «word-spacing», der Wert ist auch em. <br>
+                Ausrichtung: <br> Mit «text-align» kann man die Ausrichtung des Textes bestimmen. Man kann die Werte
+                «left»
+                (links), «right» (rechts), «center» (zentriert) und «justify» (Blocksatz) angeben. <br>
+                Vertikale Ausrichtung: <br> Die vertikale Ausrichtung dient nicht zur Zentrierung von «p» oder «div»
+                Elementen,
+                sondern ist dafür zuständig um «img» (Bilder), «em» (Zitate) und «strong» (wichtiger Text) elemente
+                Auszurichten.
+                Die werte sind «baseline» (richtet die Schrift-Grundlinie des Elements an der Grundlinie des
+                Elternelements
+                aus),
+                «sub» (senkt die Grundlinie der Box auf die Höhe der Sub-Schrift des Parent-Elements, ohne die
+                Schriftgröße
+                zu
+                verändern), «super» (hebt die Grundlinie der Box auf die Höhe der Super-Script des Parent-Elements,
+                ohne
+                die
+                Schriftgröße zu verändern), «top» (richtet den Inhalt der Box an der Oberkante der Linebox aus),
+                «text-top»
+                (richtet
+                die Box-Oberkante an der Oberkante des Parent-Inhaltbereichs aus), «middle» (richtet die Kind-Box-Mitte
+                an
+                der
+                Grundlinie plus der Hälfte der x-Höhe des Elternelements aus),«bottom» (richtet den Inhalt der Box an
+                der
+                Unterkante
+                der Linebox aus) und «text-bottom» (richtet die Box-Unterkante an der Unterkante des
+                Parent-Inhaltsbereichs
+                aus).
+                <br>
+                Text einrücken: Das Element «text-indent» benutzt man um eine Zeile einzuziehen, mit den Werten Pixel
+                oder
+                em. Schlagschatten: Mit der Eigenschaft «text-shadow» kann man eine gewöhnliche dunklere Version des
+                Textes
+                erzeugen.
+                Um diese darzustellen braucht man drei Längenangaben. Die erste zeigt wie weit der schatten nach links
+                oder
+                nach
+                rechts eingestellt sein muss. Der zweite wert zeigt wie weit nach oben oder unter sie angezeigt werden
+                soll
+                und
+                zum Schluss noch die Unschärfe des Schattens. Die ersten zwei Werte werden in Pixel angegeben und das
+                letzte
+                ist ein Farbwert.
+            </p>
+
+
+            <h2 id="fonts">Fonts</h2>
+            <p>Wenn man verschiedene Arten von Schriften in ihr HTML Dokument einfügen möchte, kann man mit Google
+                Fonts
+                einige Schriften herunterladen. Man muss beachten das man es nicht übertreibt. Der hier angegebener
+                Link,
+                führt zu <a href="https://fonts.google.com/">Google Fonts</a>. Dort kann man verschidene Schriftarten
+                herunterladen und dann den Link in CSS einfügen.
+            </p>
+            <h2 id="farbe">Farbe</h2>
+            <p>
+                Jede Farbe die auf dem Bildschirm angezeigt wird, wir aus einer Farbmischung von rot, grün und blau
+                dargestellt. Um die
+                gewünschte Farbe
+                zu wählen, kann man den Farbwähler benutzen. Mit der Eigenschaft color bestimmt man die Farbe des
+                Textes.
+                In
+                CSS
+                kann man in drei verschiedenen Arten die Farbe festlegen. <br>
+                RGB Werte: <br> Hiermit werden die Farben durch die Angabe der Menge von rot, grün und blau definiert.
+                Sie
+                stehen ist den Zahlen zwischen 0 und 255. <br>
+                HEX-codes: <br> Der sechsstellige Code zeigen auch hier die Farben rot grün und blau in dem
+                Hexadezimalen
+                Bereich. <br>
+                Farbnamen: <br> Es gibt 147 vordefinierte Farbnamen die alle Browser verstehen können. Diese
+                Farbpalette
+                wird meist als zu eingeschränkt bezeichnet. Ausserdem kann man sich die Farbnamen nicht merken,
+                deswegen
+                stellt
+                CSS automatisch auf RGB um sobald man den Farbnamen eingegeben hat. <br>
+                Info: Auf <a href="https://color.adobe.com/de/create/color-wheel/">Adobe Color CC</a> kann man
+                verschiedene
+                Farben in RGB und HEX definieren.
+
+                Deckkraft: <br> Mit den neusten Browsern kann man mit opacity oder RGBA die Deckkraft bestimmen. Die
+                Eigenschaft
+                opacity ist in CSS3 neu eingeführt worden, um die Deckkraft des Elements und Kindelement festlegen zu
+                können.
+                Der Wert ist eine Zahl zwischen 0 und 1.0. Zum Beispiel 0.5 ist 50% Denkkraft. Es gibt die auch die
+                Eigenschaft
+                RGBA, bei dem der vierte Wert a für alpha, der auch in einem Wert von 0 bis 1.0 steht. <br>
+                Um die Hintergrundfarbe zu bestimmen background beziehungsweise background-color eingeben und als wert
+                kann
+                man eine der oben genannten farb-codes verwenden. Wenn man keine Hintergrundfarbe angibt, dann ist der
+                Hintergrund
+                transparent. Diese Regel funktioniert nur, weil CSS die einzelnen HTML Elemente, so behandelt als ob
+                sie in
+                einem
+                Kasten ständen.
+
+
+            </p>
+
+            <h2 id="kasten">Kästen</h2>
+            <p>
+                Abmessungen von Kästen:<br> Standartgemäss ist ein Kasten geraden so gross wie sein Inhalt. Mit den
+                Eigenschafften
+                «height» und «width» können die Abmessungen festgelegt werden. Man kann als Wert Pixeln oder Prozent
+                angeben.<br>
+                Die Bereite einschränken: <br> Manche Seiten sind so eingestellt das sie sich dem Benutzerbildschirm
+                anpassen.
+                Dabei wird die Eigenschafft «mind-width» benutzt, sie gibt die Mindestbreite an. Wenn man aber die
+                Höchstbreite
+                angeben möchte, dann gibt man «max-width» an. Auch hier ist der Wert Pixel oder Prozent. Diese Funktion
+                ist
+                hilfreich
+                um den Seiteninhalt lesbar zu halten.<br>
+                Die Höhe einschränken: <br> Genau so wie man die Breite einschränken kann, kann man auch die Höhe
+                einschränken.
+                Dies kann man mit «min-height» und «max-height» <br>
+                Überlaufender Inhalt: <br> Wenn der Inhalt grösser ist als der Kasten, kann man mit der Eigenschaft
+                «overfloat»
+                den Browser sagen ob, er mit den Werten den Inhalt verbergen (hidden) oder den Kasten mit einem
+                Rollbalken
+                zum
+                scrollen (scroll) versehen will.
+                <br>
+            </p>
+            <h2 id="litafo">Listen Tabellen Formulare</h2>
+            <p>
+                Aufzählungspunkte gestallten: <br> «list-style-type» benutzt man für die Gestaltung der
+                Aufzählungspunkte
+                für
+                die «ol, ul, li» Elemente. Für Untergeordneten Listen sind die Werte none,circle, disc , square
+                verfügbar.
+                Für
+                geordnete listen sind decimal (1,2,3), decimal-leading-zero (01,02,03) ,lower-alpha(a,b,c,... ),
+                upper-alpha (A,
+                B,C,...),
+                lower-roman (i. ii. iii.) , upper-roman (I II III) verfügbar.
+                <br> Aufzählungsunkte aus Grafiken: <br> Mit der Eigenschaft «list-style-image» kann man eine Grafik
+                als
+                ein
+                Aufzählungspunkt verwenden. Diese Eigenschaft funktioniert nur bei ul oder li Elementen. Der Wert fängt
+                mit
+                url
+                an darauf folgt in Klammern und Anführungszeichen der link zum Bild.
+                <br> Aufzählungsunkte Position: <br> «list-style-position» kann die Werte «outside» (die
+                Aufzählungspunkte
+                befinden
+                sich links neben dem Textblock) oder «inside» (befinden sich innerhalb der des Textkastens)
+                <br> Tabelleneigenschaften: <br> Eine Tabelle besteht aus mehreren Eigenschaften. Hier einige
+                Eigenschaften
+                um
+                eine einfache Tabelle zu erstellen. «width» legt die Breite der Tabelle und «padding» den Abstand
+                zwischen
+                den
+                Rahmen der einzelnen Tabellenzellen fest Um die Inhalte der Tabellenkopfzeilen in Grossbuchstaben zu
+                machen
+                gibt
+                es den Code «text-transform:uppercase». Für zusätzliche Formatierungen gibt es «letter-spacing» und
+                «font-size».
+                Um den Rahmen zu machen, benutzt man die Eigenschaft «border» und «text align» richtet den Text aus und
+                «background-color»
+                macht alles Farbig.
+                <br> Formulare gestallten: <br> Genauso wie bei den Tabellen, bestehen die Formulare aus mehreren
+                Eigenschaften.
+                Hier einige Eigenschaften um ein einfaches Formular zu gestalten: <br> font-size, color,
+                background-color,
+                border,
+                border-radius, :focus (Hintergrundfarbe bim scheiben verändern),:hover, usw.
+                <br>
+            </p>
+            <h2 id="cssbild">Bilder</h2>
+            <p>
+                Die Bild-Grösse kann man mit «width» und «height» verstellen. Mit den Eigenschaften «float» oder
+                «align»
+                kann man die Bilder
+                ausrichten und mit «display-bock» kann man sie Zentrieren.<br>
+                Hitergrundbilder: <br> Wenn man ein Bild als Hintergrundbild einfügen möchte, schreibt man den Code <br>
+                {background-img: url ("Pfad");} <br>
+                Bilder widerholen: <br> Man kann Bilder wiederholen mit der Eigenschaft «background-repeat», als Wert
+                kann
+                man «repeat-x» (horizontal wiederholen) oder «repeat-y» (vertikal widerholen) benutzen. Man kann auch
+                «no-repeat»
+                benutzen, dann wird das Bild nur einmal angezeigt und mit «background-attachment: fixed oder scroll»
+                kann
+                man
+                das Bild fixieren oder beim Scrollen bewegen lassen. Um die Position zu bestimmen kann man die
+                Eigenschaft
+                «background-position»
+                mit den Werten «left-top, left-center, left-bottom, center-top, center-center, center-bottom,
+                right-top,
+                right-center,
+                right-botto» gebrauchen.
+                <br>
+            </p>
+            <h2 id="boxmodel">Box-Model</h2>
+            <p>
+                Border (Rahmen): <br> Der Rahmen trennt die Aussenkannte eines Kastens von der eines anderen. Mit der
+                Eigenschaft
+                «boder-widht» kann man bestimmen ob man den Rahman thin, medium oder thick machen möchte diese, man
+                kann
+                aber
+                auch einen Pixel oder Prozent wert eingeben. Man kann auch einzelne Rahmenteile ansprechen, indem man
+                border-top-width,
+                border-right-width, border-bottom-width, border-left-width als Eigenschaft angibt und die oben
+                genannten
+                Werte
+                angibt.
+                <br> Rahmenart: <br> Mir «border-style» kann man die bestimmen ob der Rahmen eine einfache Linie
+                (solid)
+                oder
+                eine Reihe von quadratischen punkten (dotted) usw. sein sollte.
+                <br> Rahmenfarbe: <br> Die Farben kann man als RGB oder Hex Codes angeben. Auch hier kann man mit
+                border-top-color,
+                border-right- color, border-bottom-color, border-left-color die Rahmenteile bestimmen.
+                <br> Margin (Aussenrand): <br> Der Aussenrand liegt ausserhalb des Rahmenkannte. Sie wird benutzt um
+                einen
+                Abstand
+                zwischen den Rahmen zweier abgegrenzten Kästen zu bilden. Der wert wird meistens als Pixel angegeben.
+                Man
+                kann
+                die einzelnen Seiten eines Kastens werte angeben, indem man margin-top, margin -right, margin -bottom,
+                margin
+                -left oder margin: 10px 20xp 30px 40px angibt. Mit dem Wert auto kann man den Inhalt zentrieren. <br>
+                Padding
+                (Innenrand): <br> Der Innenrand ist der Raum zwischen dem Rahmen und dem eingeschlossenen Inhalt. Durch
+                den
+                Innenrand
+                kann man den Inhalt besser leserlich machen. Auch hier wird meistens Pixel als Wert benutzt und hat die
+                Möglichkeit
+                alle Seiten einzeln anzusprechen, indem man padding-top, padding-right, padding-bottom, padding-left
+                als
+                Eigenschaft
+                angibt. Es gibt auch die kurz Fassung beidem man padding: 10px 20xp 30px 40px als Code angibt.
+                <img src="https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png" alt="Box Modell">
+
+                <h2 id="flexbox">Flex-Box</h2>
+                <p>
+                    Flex-Richtung: <br> Mit der «flex-direction» wird die Richtung festgelegt. Mit den Elementen
+                    <br> row (Standardeinstellung): von links nach rechts hinein ltr; von rechts nach links rein rtl.
+                    <br> row-reverse: von rechts nach links rein ltr; von links nach rechts hinein rtl.
+                    <br> column: oben nach unten
+                    <br> column-reverse: unten nach oben
+                    <br> Flex-Wrap: <br> Standardmäßig versuchen alle Flex-Elemente, in eine Zeile zu passen. Man kann
+                    sie aber
+                    mit
+                    «flex-wrap» Eigenschaft umschließen lassen. Die werte sind <br> nowrap (Standardeinstellung): Alle
+                    Flex-Artikel
+                    befinden sich in einer Zeile wrap: Flex-Elemente werden in mehrere Zeilen von oben nach unten
+                    umgebrochen.
+                    wrap-reverse:
+                    Flex-Elemente werden von unten nach oben auf mehrere Zeilen umbrochen. Inhalt rechtfertigen:
+                    «justify-contend»
+                    definiert die Ausrichtung entlang der Hauptachse. Es hat auch eine gewisse Kontrolle über die
+                    Ausrichtung
+                    von
+                    Elementen, wenn diese die Linie überlaufen. <br>
+                    • flex-start (Standardeinstellung): Elemente werden zur Startzeile gepackt <br>
+                    • flex-end: Artikel werden gegen Ende gepackt <br>
+                    • center: Elemente werden entlang der Linie zentriert <br>
+                    • space-between: Artikel werden gleichmäßig in der Zeile verteilt; Der erste Eintrag ist in der
+                    Startzeile,
+                    der letzte Eintrag in der Endzeile <br>
+                    • space-around: Elemente werden gleichmäßig in der Zeile verteilt und haben
+                    denselben Platz um sie herum. <br>
+                    • space-evenly: Elemente werden so verteilt, dass der Abstand zwischen zwei beliebigen
+                    Elementen (und dem Abstand zu den Rändern) gleich ist. Ausrichten: Die Eigenschaft «align-items»
+                    definiert das
+                    Standardverhalten
+                    für die Anordnung von Flex-Elementen entlang der Querachse in der aktuellen Zeile. <br>
+                    • flex-start: Die
+                    Margin-Kante
+                    des Gegenlaufs der Elemente wird in die Querstartlinie eingefügt <br>
+                    • flex-end: Die Randkante der Elemente am
+                    Kreuzende
+                    wird an der Linie des Kreuzendes platziert. <br>
+                    • center: Elemente werden in der Querachse zentriert <br>
+                    • baseline: Elemente werden so ausgerichtet, wie ihre Basislinien ausgerichtet sind<br>
+                    • stretch
+                    (Standardeinstellung):
+                    Dehnen, um den Behälter zu füllen (Mindestbreite / Maximalbreite beachten)
+                    <br> Inhalt ausrichten: <br> Durch «aligh-content» werden die Linien eines Flex-Containers
+                    innerhalb
+                    ausgerichtet,
+                    wenn zusätzlicher Platz in der Querachse vorhanden ist.
+                    <br> • flex-start: Zeilen, die an den Anfang des Containers gepackt sind<br> • flex-end: Zeilen bis
+                    zum
+                    Ende
+                    des Behälters verpackt<br> • center: Zeilen in der Mitte des Containers verpackt<br> •
+                    space-between:
+                    Linien
+                    gleichmäßig verteilt; Die erste Zeile befindet sich am Anfang des Containers, die letzte Zeile am
+                    Ende<br>
+                    •
+                    space-around: gleichmäßig verteilte Zeilen mit gleichem Abstand um jede Zeile<br> • stretch
+                    (Standard): Die
+                    Linien
+                    werden so vergrößert, dass der verbleibende Speicherplatz belegt wird<br>
+                    Wenn man noch mehr informationen braucht, kann man auf <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                        target="_blank">css-tricks</a>
+                    mehr erfahren.
+                </p>
+                <h2 id="mediaqueries">Media Queris</h2>
+                <p>
+                    Die @media Regel wird verwendet, um einen Block von CSS-Eigenschaften nur einzuschließen, wenn eine
+                    bestimmte Bedingung erfüllt
+                    ist. Man benutzt es damit man auf kleineren Geräten zum Beispiel Handys, ein angenehmes erscheinen
+                    der
+                    Webseite
+                    zu haben. Wenn die Breite kleiner als 768px ist, sollten wir das Design ändern, wenn die Breite
+                    größer als
+                    768px
+                    wird. Die kann man mit dem Code @media (max-width: 768px). Hier ist ein Link, um mediaqueries
+                    auszuprobieren.
+                    <a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">Mediaqueries</a>
+                </p>
+
+                <hr>
+                <h1 id="praxis">Praxis</h1>
+                <h2 id="wireframe">Wireframe</h2>
+                <p>Der Wireframe ist eine digitale Skizze einer Webseite. Mit den verschiedenen Elementen kann man
+                    genau
+                    bestimmen
+                    wo man Bilder, Texte, Navigatoren und mehr platzieren kann. Hier Webseite: <a href="https://www.gomockingbird.com/home"
+                        target="_blank">Wireframe</a>
+                </p> <img src="bilder/wirefrmae.JPG" alt="Wireframe">
+
+                <h2 id="sitemap">Sitemap</h2>
+                <p>Mit einer Sitemap kann man eine hierarchisch strukturierte Darstellung aller Einzeldokumente eine
+                    Webseite
+                    erstellen.
+                    Das hat den Zweck den Überblick der Webseite zu behalten. Hier der link dazu: <a href="https://www.gloomaps.com/"
+                        target="_blank"> Sitemap</a> </p>
+
+                <img src="bilder/sitemap.JPG" alt="sitemap">
+
+                <h2 id="layout">Layout in HTML</h2>
+                <p>Weitere Strukturierungselemente innerhalb des &lt;body&gt;sind &lt;header&gt;, &lt;main &gt; und
+                    &lt;footer&gt;.
+                    So kann der Inhalt logisch aufgeteilt werden. Navigation (&lt;nav &gt;) und Titel (&lt;h1&gt;
+                    &lt;/h1&gt;)
+                    gehören
+                    beispielsweise in den &lt;header &gt; und Informationen über den Ersteller der Webseite oder den
+                    Kontakt
+                    einer
+                    Firma in den &lt;footer &gt;. Diese sollten ebenfalls direkt zu Beginn eingefügt werden, da sie die
+                    Übersichtlichkeit
+                    erhöhen.
+                </p>
+                <h2 id="validieren">Validierung</h2>
+                <p>Beim Schreiben einer Webseite kann es sein, dass man einige Fehler machen kann, trotz der
+                    Korrekturfunktionen
+                    in VS Code. Deswegen gibt es gewisse Webseiten mit dem man den Code kontrollieren kann. Hier ist
+                    der Link
+                    zu
+                    einer Webseite mir der man den HTML und CSS Code validieren lassen kann. Hier geht es zur
+                    Valiedierungs
+                    Webseite: </p>
+                <a href="https://validator.w3.org/" target="_blank"> Valiedieren </a>
+
+                <h2 id="testprotokoll">Testprotokoll</h2>
+                <p>Das Testprotokoll ist dazu da, die entwickelte Webseite auf Fehler zu überprüfen. Sie ist auch eine
+                    grosse
+                    Checkliste
+                    mit den wichtigsten Anforderungen. Im unten abgebildeten Bild sieht man ein einfaches
+                    Testprotokoll.</p>
+                <img id="testp" src="bilder/testprotokoll.JPG" alt="Beispiel Testprotokoll">
+        </main>
+
+        <footer>
+            &copy;Akastega Satkunarajah
+        </footer>
+    </body>
+
+</html>
