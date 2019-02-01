@@ -1,38 +1,9 @@
 /*hintrgrund bild*/
  body{
-     background-image: url("bilder/hintergrundbild.jpg")
+     background-image: url("bilder/hintergrundbild.jpg");
  }
 
- /*Aufbau der Webseite*/
-.navbar{
-    background-color: rgba(0, 0, 0, 0.486);
-}
-
-.nav-link{
-    color: white;
-}
-
-.nav-link:hover{
-        color: white;
-}
-
-.navbar-brand{
-    color: white;
-}
-
-.navbar-brand:hover{
-    color: white;
-}
-
-.navbar-toggler{
-    background-color: #00000041 !important; 
-   
-}
-
-main{
-    margin: 90px 60px 10px 60px;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.486);
-  line-height: 25px;
-  color: white;
+.carousel-caption {
+   color: rgb(0, 0, 0) !important;
+   font-size: 10px;
 }
