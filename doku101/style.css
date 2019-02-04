@@ -4,6 +4,25 @@ footer{
   text-align:  center;
 }
 
+body{
+  background-image: url("../bilder/hitergrundhome\ _v5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  position: fixed !important;
+  width: 100% !important;
+}
+
 .maindoku{
-  background-image: url("bilder/hitergrundhome\ _v5.jpg")
+  padding: 100px 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+#khtml{
+  border:1px solid white;
+padding: 10px;
+margin: 50px 20px;
 }
