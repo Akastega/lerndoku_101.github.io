@@ -1,22 +1,45 @@
 footer{
   color: white;
-  background-color: rgb(113, 170, 153);
+  background-color: rgb(54, 81, 73);
   text-align:  center;
 }
 
 body{
   background-image: url("../bilder/hitergrundhome\ _v5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: auto;
 }
 
 nav{
   position: fixed !important;
   width: 100% !important;
+  background-color: rgb(54, 81, 73) !important;
 }
 
 .maindoku{
-  padding: 100px 50px;
-  color: white;
+  padding: 150px 50px;
+  color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.534);
+  color: white;
+}
+
+
+
+/*projekt*/
+
+.containerp{
+  color: rgb(255, 255, 255) ;
+} 
+
+.collapsed{
+  color: rgb(255, 255, 255) !important;
+}
+
+.collapsed :hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.card{
+  background-color: rgba(113, 170, 153, 0.836) !important;
 }
