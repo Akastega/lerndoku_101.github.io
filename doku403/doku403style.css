@@ -2,28 +2,36 @@ footer{
   color: white;
   background-color: rgb(54, 81, 73);
   text-align:  center;
+  position: sticky;
+ 
 }
 
 body{
   background-image: url("../bilder/hitergrundhome\ _v5.jpg");
-  background-repeat: repeat-y;
-  background-size: auto;
+
 }
 
 nav{
   position: fixed !important;
   width: 100% !important;
   background-color: rgb(54, 81, 73) !important;
+ z-index: 5 !important;
 }
 
 .maindoku{
   padding: 150px 50px;
   color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.534);
   color: white;
 }
 
+.box{
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(113, 170, 153, 0.897);
 
+}
 
 /*projekt*/
 
@@ -41,5 +49,17 @@ nav{
 }
 
 .card{
-  background-color: rgba(113, 170, 153, 0.836) !important;
+  background-color: rgba(113, 170, 153, 0.918) !important;
 }
+
+
+/*Film*/
+.list-group-item{
+  background-color: rgba(113, 170, 153, 0.918) !important;
+}
+
+.btn{
+  background-color: rgb(113, 170, 153) !important;
+  color: white;
+}
+
