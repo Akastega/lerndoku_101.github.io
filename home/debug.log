@@ -14,3 +14,22 @@
 [0206/095706.592:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
 [0206/095706.592:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
 [0206/095751.943:ERROR:process_info.cc(359)] UncheckedAllocate
+[0207/122709.868:ERROR:process_info.cc(359)] UncheckedAllocate
+[0207/122714.736:ERROR:process_reader_win.cc(182)] ResumeThread: Falscher Parameter. (0x57)
+[0207/122714.737:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.737:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.737:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.737:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(182)] ResumeThread: Falscher Parameter. (0x57)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122714.856:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0207/122716.640:ERROR:process_info.cc(359)] UncheckedAllocate
+[0207/122716.908:ERROR:process_reader_win.cc(182)] ResumeThread: Falscher Parameter. (0x57)
+[0207/122716.921:ERROR:process_info.cc(359)] UncheckedAllocate
+[0207/122717.230:ERROR:process_info.cc(359)] UncheckedAllocate
