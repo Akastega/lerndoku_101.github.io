@@ -1,13 +1,13 @@
 footer{
   color: white;
-  background-color: rgb(113, 170, 153);
+  background-color: rgb(54, 81, 73);
   text-align:  center;
+  
 }
 
 body{
   background-image: url("../bilder/hitergrundhome\ _v5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 nav{
