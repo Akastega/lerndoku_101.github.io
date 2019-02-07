@@ -15,14 +15,20 @@ nav{
   width: 100% !important;
 }
 
-.maindoku{
-  padding: 100px 50px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.534);
-}
+
 
 #khtml{
   border:1px solid white;
 padding: 10px;
 margin: 50px 20px;
+}
+
+.maindoku{
+  color: white;
+  width: 95%;
+  height: 100%;
+  text-align: left;
+  margin: auto;
+  padding: 100px 10px;
+  background-color: rgba(113, 170, 153, 0.897);
 }
