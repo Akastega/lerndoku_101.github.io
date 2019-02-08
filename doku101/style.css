@@ -1,11 +1,11 @@
+
 footer{
   color: white;
   background-color: rgb(54, 81, 73);
   text-align:  center;
-  
 }
 
-body{
+.bodydoku{
   background-image: url("../bilder/hitergrundhome\ _v5.jpg");
 
 }
@@ -13,7 +13,89 @@ body{
 nav{
   position: fixed !important;
   width: 100% !important;
+
+  background-color: rgb(54, 81, 73) !important;
+ z-index: 5 !important;
+
 }
+
+.maindoku{
+  color: white;
+  padding: 100PX 0PX;
+
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.box{
+  width: 95%;
+  height: 100%;
+  text-align: left;
+  margin: auto;
+  padding: 10px 200px;
+  column-count: 2;
+  background-color: rgba(83, 148, 128, 0.897);
+ font-size: 30px !important;
+
+}
+
+.box2{
+  width: 80%;
+  height: 100%;
+  text-align: left;
+  margin: auto;
+  padding: 10px 200px;
+  background-color: rgba(83, 148, 128, 0.897);
+ font-size: 30px !important;
+
+}
+
+h1  {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 80px !important;
+
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 60px !important;
+
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  break-before: always;
+
+}
+
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+
+.link{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(78, 131, 115) !important;
+  color: white;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1500px) {
+  .box {
+    column-count: 1;
+  }
+
 
 
 
@@ -21,14 +103,4 @@ nav{
   border:1px solid white;
 padding: 10px;
 margin: 50px 20px;
-}
-
-.maindoku{
-  color: white;
-  width: 95%;
-  height: 100%;
-  text-align: left;
-  margin: auto;
-  padding: 100px 10px;
-  background-color: rgba(113, 170, 153, 0.897);
 }

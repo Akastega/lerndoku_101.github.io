@@ -20,20 +20,17 @@ nav{
 
 .maindoku{
   color: white;
+  padding: 100PX 0PX;
+
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.box{
   width: 95%;
   height: 100%;
   text-align: left;
   margin: auto;
-  padding: 100px 10px;
-  background-color: rgba(113, 170, 153, 0.897);
-}
-
-.box{
-  width: 90%;
-  height: 100%;
-  text-align: left;
-  margin: auto;
-  padding: 10px;
+  padding: 10px 200px;
   column-count: 2;
   background-color: rgba(83, 148, 128, 0.897);
  font-size: 30px !important;
@@ -45,7 +42,7 @@ nav{
   height: 100%;
   text-align: left;
   margin: auto;
-  padding: 10px;
+  padding: 10px 200px;
   background-color: rgba(83, 148, 128, 0.897);
  font-size: 30px !important;
 
@@ -112,18 +109,19 @@ h1  {
   text-align: center;
   text-decoration: underline;
   font-size: 80px !important;
-  column-break-before: column;
+
 }
 h2{
   text-align: center;
   text-decoration: underline;
   font-size: 60px !important;
-  column-break-before: column;
+
 }
 h3 {
   text-align: center;
   text-decoration: underline;
-  column-break-after: column !important;
+  break-before: always;
+
 }
 
 .bildtech{
@@ -145,7 +143,6 @@ img{
 .link{
   width: 100%;
   height: 100%;
-  padding: 5px;
   background-color: rgb(78, 131, 115) !important;
   color: white;
 }
@@ -159,4 +156,3 @@ img{
   .box {
     column-count: 1;
   }
-}
