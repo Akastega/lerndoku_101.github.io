@@ -53,6 +53,9 @@ nav{
 
 .containerp{
   color: rgb(255, 255, 255) ;
+  width: 75%;
+  min-width: 400px;
+margin: 0 auto;
 } 
 
 .collapsed{
@@ -123,8 +126,7 @@ h2{
 h3 {
   text-align: center;
   text-decoration: underline;
-  break-before: always;
-
+  break-before: auto ;
 }
 
 .bildtech{
@@ -163,3 +165,4 @@ img{
   .box {
     column-count: 1;
   }
+}
