@@ -2,31 +2,26 @@ footer{
   color: white;
   background-color: rgb(54, 81, 73);
   text-align:  center;
- 
 }
 
 #main{
  
-  width: 95%;
-  height: 100%;
   text-align: left;
-  margin: auto;
-  padding: 100px 10px;
-  background-color: rgba(113, 170, 153, 0.897);
+
+  color: rgb(0, 0, 0);
+
+    padding: 50px
 }
 
 .card{
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 
 img{
-  width: 100%;
+  width: 95%;
 }
-
-
 
 * {
   margin: 0;
@@ -35,7 +30,7 @@ img{
 html, body {
   height: 100%;
   scroll-behavior:  smooth;
-  background-image: url("bilder/hitergrundhome\ _v5.jpg");
+  background-image: url("bilder/hintergrundbild.jpg");
 }
 
 header {
@@ -160,3 +155,7 @@ header { background: url("bilder/hitergrundhome\ _v5.jpg") center center / cover
   }
 }
 
+#wibi {
+  width: 4%;
+  height: 4%;
+}

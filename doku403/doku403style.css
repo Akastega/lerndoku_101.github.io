@@ -5,7 +5,7 @@
 }
 
 .bodydoku{
-  background-image: url("../bilder/hitergrundhome\ _v5.jpg");
+  background-image: url("../bilder/hintergrundbild.jpg");
 
 }
 
@@ -17,10 +17,15 @@ nav{
 
 }
 
+#wibi {
+  width: 5%;
+  height: 5%;
+}
+
 .maindoku{
   color: white;
   padding: 100PX 0PX;
-  background-color: rgba(0, 0, 0, 0.493);
+
 }
 
 .box{
@@ -28,7 +33,7 @@ nav{
   height: 100%;
   text-align: left;
   margin: auto;
-  padding: 10px 200px;
+  padding: 10px 50px;
   column-count: 2;
   background-color: rgba(83, 148, 128, 0.897);
   font-size: 30px !important;
@@ -39,7 +44,7 @@ nav{
   height: 100%;
   text-align: left;
   margin: auto;
-  padding: 10px 200px;
+  padding: 10px 50px;
   background-color: rgba(83, 148, 128, 0.897);
  font-size: 30px !important;
 
@@ -109,6 +114,7 @@ h1  {
 
 }
 h2{
+  color:rgb(54, 81, 73) !important;
   text-align: center;
   text-decoration: underline;
   font-size: 60px !important;

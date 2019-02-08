@@ -6,14 +6,13 @@ footer{
 }
 
 .bodydoku{
-  background-image: url("../bilder/hitergrundhome\ _v5.jpg");
+  background-image: url("../bilder/hintergrundbild.jpg");
 
 }
 
-nav{
+nav {
   position: fixed !important;
   width: 100% !important;
-
   background-color: rgb(54, 81, 73) !important;
  z-index: 5 !important;
 
@@ -22,8 +21,6 @@ nav{
 .maindoku{
   color: white;
   padding: 100PX 0PX;
-
-  background-color: rgba(0, 0, 0, 0.493);
 }
 
 .box{
