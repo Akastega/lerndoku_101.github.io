@@ -12,16 +12,14 @@
 nav{
   position: fixed !important;
   width: 100% !important;
-
   background-color: rgb(54, 81, 73) !important;
- z-index: 5 !important;
+  z-index: 5 !important;
 
 }
 
 .maindoku{
   color: white;
   padding: 100PX 0PX;
-
   background-color: rgba(0, 0, 0, 0.493);
 }
 
@@ -33,8 +31,7 @@ nav{
   padding: 10px 200px;
   column-count: 2;
   background-color: rgba(83, 148, 128, 0.897);
- font-size: 30px !important;
-
+  font-size: 30px !important;
 }
 
 .box2{
