@@ -1,6 +1,6 @@
 footer{
   color: white;
-  background-color: rgb(54, 81, 73);
+  background-color: rgb(206, 206, 206);
   text-align:  center;
 }
 
@@ -30,7 +30,7 @@ img{
 html, body {
   height: 100%;
   scroll-behavior:  smooth;
-  background-image: url("bilder/hintergrundbild.jpg");
+  background-image: url("bilder/bildschirmschoner_1.jpg");
 }
 
 header {
@@ -61,7 +61,7 @@ header h1 {
   white-space: nowrap;
 }
 
-header { background: url("bilder/hitergrundhome\ _v5.jpg") center center / cover no-repeat;}
+header { background: url("bilder/bildschirmschoner_1.jpg") center center / cover no-repeat;}
 
 .demo a {
   position: absolute;
@@ -159,3 +159,20 @@ header { background: url("bilder/hitergrundhome\ _v5.jpg") center center / cover
   width: 4%;
   height: 4%;
 }
+
+
+@media (max-width: 750px) {
+  h1{
+    font-size: 40px !important;
+  }
+
+  .card{
+ width: auto;
+  }
+
+  a{
+    left:45% !important;
+  }
+
+}
+
