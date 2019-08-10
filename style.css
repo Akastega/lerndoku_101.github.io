@@ -9,7 +9,7 @@ footer{
   text-align: left;
 
   color: rgb(0, 0, 0);
-
+ background-image: url("bilder/bildschirmschoner_1.jpg");
     padding: 50px
 }
 
@@ -30,7 +30,7 @@ img{
 html, body {
   height: 100%;
   scroll-behavior:  smooth;
-  background-image: url("bilder/bildschirmschoner_1.jpg");
+ 
 }
 
 header {
@@ -61,7 +61,7 @@ header h1 {
   white-space: nowrap;
 }
 
-header { background: url("bilder/bildschirmschoner_1.jpg") center center / cover no-repeat;}
+header { background: url("bilder/profiellayout.jpg") center center / cover no-repeat;}
 
 .demo a {
   position: absolute;
